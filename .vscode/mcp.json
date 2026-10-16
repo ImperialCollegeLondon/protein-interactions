@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "europepmc": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["tools/europepmc_server.py"]
+    }
+  }
+}

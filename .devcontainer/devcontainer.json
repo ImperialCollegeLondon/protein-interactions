@@ -1,0 +1,24 @@
+{
+  "name": "protein-interactions",
+  "image": "python:3.13-slim",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false,
+      "installOhMyZsh": false,
+      "installOhMyZshConfig": false,
+      "upgradePackages": false,
+      "username": "none"
+    },
+    "ghcr.io/devcontainers/features/copilot-cli:1": {}
+  },
+  "postCreateCommand": "pip install --no-cache-dir -e .",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot-chat",
+        "ms-python.python",
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  }
+}

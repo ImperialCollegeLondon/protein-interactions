@@ -1,0 +1,12 @@
+# Starter papers on the regulation of p53 by MDM2 and related proteins.
+# One PubMed ID per line. Add your own, or start a new list on another topic.
+1535557
+8319905
+9153395
+9153396
+9363941
+9450543
+9733514
+9733515
+8242752
+14704432
